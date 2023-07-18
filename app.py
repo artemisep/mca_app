@@ -19,8 +19,8 @@ def click_button():
 codes_output = ""
 #st.markdown(line)
 if uploaded_file:
-    st.markdown("processing...")
-    time.sleep(2)
+    #st.markdown("processing...")
+    #time.sleep(2)
     
     st.subheader("**Medical Report:**")
     st.markdown("'Patient is a 27-year-old white male. :red[Not an established patient]. Height is 74 inches, weight 220 lbs. Patient states he is allergic to penicillin, but has no other outstanding medical history. Does not smoke, exercises moderately.\n', 'Patient presents with chills, headache, cough, fever (101 degrees), difficulty breathing. :red[Examination via stethoscope] yields heavy rales. :red[Percussion test on thorax] suggests buildup in :red[lungs]. :red[Streptococcal pneumoniae] suspected.\n', 'Obtained blood sample for :red[Antistreptolysin O titer]. Results yield level of :red[ASO] above 200. :red[Diagnosis of streptococcal pneumoniae] confirmed. Prescribed patient two weeks of 500mg azithromycin (Zithromax), and scheduled follow-up for next week.'")
